@@ -1,0 +1,552 @@
+/*------------------Add-Font---------------*/
+
+@font-face {
+    font-family: BigNoodleTitling;
+    src: url('../fonts/bignoodletitling/big_noodle_titling.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+
+/*---------------Banner-Area------------*/
+
+.banner-area {
+    height: 1079px;
+    background-image: url('../images/banner.png');
+    position: relative;
+}
+
+.banner-area>h1 {
+    display: none;
+}
+
+.intro {
+    width: 100%;
+    height: 204px;
+    background-color: #438fde;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Open Sans";
+    position: absolute;
+    bottom: 135px;
+    padding: 50px 190px;
+    box-sizing: border-box;
+}
+
+/*---------------Slogan-------------*/
+
+.slogan {
+    width: 45%;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 345px;
+    left: 100px;
+}
+
+.slogan>h2 {
+    font-family: "BigNoodleTitling";
+    font-size: 62px;
+    font-weight: normal;
+}
+
+.slogan>p {
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin-top: -35px;
+}
+
+
+/*-----------------Search-Box--------------*/
+
+.search-tour {
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    color: #606060;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 999;
+    right: 100px;
+    bottom: 260px;
+}
+
+.search-tour>h2 {
+    font-family: "BigNoodleTitling";
+    font-size: 70px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.search-tour>p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-top: -60px;
+}
+
+
+/*-----------------Search-box-control--------------*/
+
+.search-tour input {
+    width: 427px;
+    height: 58px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    margin-bottom: 25px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.search-tour .button-search {
+    background-color: #006fe6;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/*-------------Add-icons-to-search-box------------*/
+
+.input-tour {
+    background-image: url('../images/icons-01.png');
+    background-repeat: no-repeat;
+    background-position: 385px 18px;
+}
+
+.input-destination {
+    background-image: url('../images/icons-01.png');
+    background-repeat: no-repeat;
+    background-position: 385px -53px;
+}
+
+.input-type {
+    background-image: url('../images/icons-01.png');
+    background-repeat: no-repeat;
+    background-position: 385px -136px;
+}
+
+.input-month {
+    background-image: url('../images/icons-01.png');
+    background-repeat: no-repeat;
+    background-position: 385px -222px;
+}
+
+
+/*------------------------Tour-Type-Area--------------------*/
+
+.tour-type {
+    height: 487px;
+    background-image: url('../images/Layer%206.png');
+    background-repeat: no-repeat;
+    background-position: 0 -95px;
+    text-align: center;
+    position: relative;
+}
+
+.tour-type>h2 {
+    display: none;
+}
+
+.tour-type>p {
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #606060;
+    position: absolute;
+    top: 20px;
+}
+
+
+/*---------------------Tour-type-images------------------------*/
+
+.north-america-01,
+.north-america-02,
+.san-francisco,
+.amazon {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 50px;
+    color: #ffffff;
+    font-family: BigNoodleTitling;
+    font-size: 33px;
+    font-weight: normal;
+    transition-duration: 0.5s;
+}
+
+.locations h3 {
+    font-weight: normal;
+    line-height: 190px;
+    transition: 0.5s;
+}
+
+.north-america-01 {
+    background-image: url('../images/north-america-01.png');
+    background-repeat: no-repeat;
+    background-position: -50px 0;
+}
+
+.north-america-02 {
+    background-image: url('../images/north-america-02.png');
+    background-repeat: no-repeat;
+    background-position: -40px -15px;
+}
+
+.san-francisco {
+    background-image: url('../images/san-francisco.png');
+    background-repeat: no-repeat;
+    background-position: -40px -15px;
+}
+
+.amazon {
+    background-image: url('../images/amazon.png');
+    background-repeat: no-repeat;
+    background-position: -100px 0;
+}
+
+
+/*------------------------Hover-tour-type-images-------------------------*/
+
+.north-america-01:hover,
+.north-america-02:hover,
+.san-francisco:hover,
+.amazon:hover,
+.locations h3:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.locations {
+    position: absolute;
+    bottom: 100px;
+    padding-left: 43px;
+}
+
+.locations:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------------News-Events-Area-------------*/
+
+.news-events {
+    text-align: center;
+    color: #606060;
+    height: 700px;
+}
+
+.news-events>h2 {
+    font-family: BigNoodleTitling;
+    font-size: 50px;
+    font-weight: normal;
+    color: #353535;
+}
+
+.news-events>p {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.news-01,
+.news-02,
+.news-03 {
+    width: 350px;
+    height: 420px;
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.article {
+    padding-left: 40px;
+    font-family: "Open Sans";
+    margin-top: 60px;
+}
+
+.article h3 {
+    display: none;
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #47a0ff;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+}
+
+.news-title:hover {
+    text-shadow: 1px 1px 15px #47a0ff;
+}
+
+.article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*---------------Add-images-to-article------------*/
+
+.news-photo-01,
+.news-photo-02,
+.news-photo-03 {
+    width: 350px;
+    height: 228px;
+    box-sizing: border-box;
+}
+
+.news-photo-01 {
+    background-image: url('../images/travel_01.jpg');
+}
+
+.news-photo-02 {
+    background-image: url('../images/travel_02.png');
+}
+
+.news-photo-03 {
+    background-image: url('../images/travel_03.jpg');
+}
+
+
+/*---------------------Hover-news-images------------------*/
+
+.news-photo-01:hover,
+.news-photo-02:hover,
+.news-photo-03:hover {
+    box-shadow: 1px 1px 7px;
+    cursor: pointer;
+}
+
+
+/*----------------Admin-Month----------------*/
+
+.user>a,
+.month>a {
+    text-decoration: none;
+    color: #606060;
+    margin-left: 5px;
+}
+
+.user,
+.month {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.month {
+    margin-left: 65px;
+}
+
+
+/*-----------Bottom-banner-area----------------*/
+
+.bottom-banner {
+    height: 698px;
+    background-image: url('../images/bottom-banner.png');
+    background-repeat: none;
+    text-align: center;
+    position: relative;
+}
+
+.bottom-banner>h2 {
+    width: 100%;
+    font-family: BigNoodleTitling;
+    font-size: 148px;
+    font-weight: normal;
+    color: #ffffff;
+    position: absolute;
+    top: 40px;
+}
+
+.bottom-banner>p {
+    width: 100%;
+    font-family: BigNoodleTitling;
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffffff;
+    position: absolute;
+    top: 260px;
+}
+
+.find-tours {
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 55px 0;
+    background-color: #47a0ff;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    left: 44%;
+    top: 390px;
+    transition: 0.5s;
+}
+
+.find-tours:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+/*------------------Footer-------------------*/
+
+footer {
+    padding: 50px 0;
+    color: #6e6e6e;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.findfinder,
+.support,
+.follow-us,
+.newsletter {
+    float: left;
+    margin-right: 80px;
+}
+
+.newsletter {
+    margin-right: 0;
+}
+
+.findfinder>p,
+.support>a {
+    line-height: 2;
+}
+
+.findfinder {
+    margin-left: 150px;
+}
+
+.support>a {
+    display: block;
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.support>a:hover {
+    color: #006fe6;
+}
+
+.more-info>h2 {
+    display: none;
+}
+
+.more-info h3 {
+    font-family: BigNoodleTitling;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.more-info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copyright {
+    border-top: 1px solid gainsboro;
+    margin-top: 60px;
+    padding-left: 150px;
+}
+
+
+/*-------------Social-media-Area--------------*/
+
+.facebook,
+.twitter,
+.instagram,
+.youtube {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #47a0ff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.facebook {
+    background-image: url('../images/icons-03.png');
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+}
+
+.twitter {
+    background-image: url('../images/icons-03.png');
+    background-repeat: no-repeat;
+    background-position: -40px 12px;
+}
+
+.instagram {
+    background-image: url('../images/icons-03.png');
+    background-repeat: no-repeat;
+    background-position: -95px 12px;
+}
+
+.youtube {
+    background-image: url('../images/icons-03.png');
+    background-repeat: no-repeat;
+    background-position: -151px 12px;
+}
+
+
+/*----------------------------Hover-Social-Media--------------------*/
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover,
+.youtube:hover {
+    cursor: pointer;
+    background-color: #d9534f;
+    transform: rotate(360deg);
+}
+
+
+/*-----------------Newsletter-Area------------*/
+
+#enter-email {
+    width: 270px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-size: 13px;
+}
+
+#submit-email {
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #006fe6;
+    color: #ffffff;
+    margin-left: -78px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#submit-email:hover {
+    cursor: pointer;
+}
